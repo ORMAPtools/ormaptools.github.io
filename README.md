@@ -2,12 +2,12 @@
 
 This is Github Pages for ORMAPtools.
 
+Look for it at https://ormaptools.github.io
+
 ## Overview
 
-I just wanted to see what I could do with Github pages,
-I though it might be a way to organize this project.
-
-Also I wanted to see what happens with MD files.
+I wanted to see what I could do with Github Pages,
+I thought it might be a way to organize this project.
 
 ## Resources
 
