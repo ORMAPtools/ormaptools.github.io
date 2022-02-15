@@ -13,3 +13,5 @@ I thought it might be a way to organize this project.
 
 ## Futher adventures
 
+* Add actual content to index.html
+* Styles
