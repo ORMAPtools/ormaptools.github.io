@@ -17,3 +17,8 @@ h2 {
     margin-bottom: 0.5rem;
     width: 20rem;
 }
+
+ul {  
+    list-style-type: none;  
+    font-weight: normal;  
+}
