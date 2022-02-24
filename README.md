@@ -6,8 +6,32 @@ Look for it at https://ormaptools.github.io
 
 ## Overview
 
-I wanted to see what I could do with Github Pages,
-I thought it might be a way to organize this project.
+Uses jekyll to generate static pages.
+I run jekyll in a Docker container because I don't want to install it on my computer.
+
+## Test and develop
+
+Create boilerplate (for new projects only)
+
+```bash
+export REPO="$USERPROFILE/source/repos/wildsong.github.io"
+docker run --rm --name=jekyll --volume="$REPO:/srv/jekyll" jekyll/jekyll jekyll new website
+```
+
+Run a test server, with hot reload
+
+```bash
+export REPO="$USERPROFILE/source/repos/wildsong.github.io"
+docker run --rm --name=jekyll \
+  --volume="$REPO:/srv/jekyll" \
+  --publish 4000:4000 \
+  jekyll/jekyll \
+  jekyll serve --incremental
+```
+(Do I want --incremental?)
+
+This will start the service running on port 4000, see http://localhost:4000/
+
 
 ## Resources
 
