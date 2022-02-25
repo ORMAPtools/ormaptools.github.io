@@ -1,11 +1,19 @@
 <html>
-    <body>
-        <head>
-            <link rel="stylesheet" type="text/css" href="global.css">
-        </head>
+    <head>
+        <title>ORMap Tools</title>
+        <link rel="stylesheet" type="text/css" href="global.css">
+        <script type="text/javascript">
+            function getDate(){
+                const d = new Date();
+                document.getElementById("Date").innerHTML = d.toString();
+            }
+        </script>
+    </head>
+    <body onload="getDate()">
 
         <div class="header">
             <h1>ORMap Tools</h1>
+            <div class="subtitle">Tools for developing an Oregon statewide digital cadastral base map</div>
             <img src="sliver.png" alt="header"><br />
         </div>
 
@@ -20,33 +28,29 @@
             transition to managing county parcel data using Parcel Fabric with ArcGIS Pro and ArcGIS Enteprise.
         </p>
 
+        <h3>State wide status of ORMAP Tools project</h3>
+
+            <p>
+                Please fill out this Google Docs form to let us know the status for your county. This will also give us an updated contact list.
+                <a target="new" href="https://docs.google.com/forms/d/e/1FAIpQLScLnnL2K0-6XgkTuEsw7QQ-Sx-LXNLE1jY4Y5ATNiESmDRE_A/viewform?vc=0&c=0&w=1&flr=0&pli=1&fbzx=5578410564896297533">Conversion Status survey</a>
+            </p>
+
         <h2>Resources</h2>
 
-            <h3>Contacts</h3>
+            <p>
+                Esri learning guide <a target="new" href="ArcGIS%20Training%20Plan%20For%20ORMAP%20for%20JS_edit.pdf">"Recommended Esri Training for Oregon Land Records Modernization"</a> <i>August 2021</i>
+                This includes information on instructor-led courses and E-learning tutorials and videos.
+            </p>
 
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLScLnnL2K0-6XgkTuEsw7QQ-Sx-LXNLE1jY4Y5ATNiESmDRE_A/viewform?vc=0&c=0&w=1&flr=0&pli=1&fbzx=5578410564896297533">Conversion status Google doc</a>
+            <h3>Publishing parcel fabric</h3>
+            <p>
+                PDF: <a target="new" href="https://pro.arcgis.com/en/pro-app/latest/help/data/parcel-editing/workflow-publishpf.htm">Workflow: Prepare and publish parcel fabric</a>
+            </p>
 
-            <h3>List of classes TBD</h3>
-
-                <ul>
-                    <li>Switching to ArcGIS Pro</li>
-                    <li>Parcel Fabric</li>
-                    <li>Pandas</li>
-                    <li></li>
-                </ul>
-
-            <h3>Links</h3>
-                <p>
-                    Here are some resources to help you in the transition.
-                </p>
-
-                <p>
-                    Doc on publishing a parcel fabric... https://pro.arcgis.com/en/pro-app/latest/help/data/parcel-editing/workflow-publishpf.htm
-                </p>
-
-                <p>
-                    48 minute mark of this video shows how to publish a parcel fabric  https://www.esri.com/videos/watch?videoid=zvTSIHKHC54&title=parcel-fabric-migrating-and-administrating-parcels-with-arcgis-pro
-                </p>
+            <p>
+                Video: <a target="new" href="https://www.esri.com/videos/watch?videoid=zvTSIHKHC54&title=parcel-fabric-migrating-and-administrating-parcels-with-arcgis-pro">Parcel Fabric: Migrating and administrating parcels with ArcGIS Pro</a>
+                48 minute mark of this video shows how to publish a parcel fabric  
+            </p>
 
         <h2>Tools for cartographers</h2>
 
@@ -63,11 +67,11 @@
 
                 <h4>Parcel Fabric</h4>
                     <p>
-                    T74V2.0.zip Pilot data. Parcel fabric containing sample data from Polk County, all tools including conversion tools
-                        This is a test data set, so that you can try out parcel fabric and the ORMap tools.
+                        ORMAPParcelFabric.zip This is an ORMAP template with a file geodatabase you can populate. <br />
                     </p>
                     <p>
-                        ORMAPParcelFabric.zip This is an empty copy of the parcel fabric ready for you to import data. <br />
+                        T74V2.0.zip Pilot data. Parcel fabric containing sample data from Polk County, all tools including conversion tools
+                        This is a test data set, so that you can try out parcel fabric and the ORMap tools.
                     </p>
 
                 <h4>Tools</h4>
@@ -77,7 +81,7 @@
                         
                         release information
                         https://github.com/ORMAPtools/ORMAP-Tools/releases.atom
-                        
+
                     <p>
                         Addin tools-- These are set up as ArcGIS Pro "addins".
                         <ul>
@@ -112,10 +116,15 @@
 
         <div class="footer">
             <hr>
-            <a href="https://ormap.net"><img src="https://ormap.net/img/ormap-logo.png" width=64 alt="ORMap.net"/></a>
-            This page is in a github repo too; to report a problem or give feedback, 
-            <a href="https://github.com/ORMAPtools/ormaptools.github.io/issues/new/choose">open an issue</a>.
-            Or you could just send an email to the <a href="mailto:bwilson@co.clatsop.or.us">site maintainer</a>.
+            <span>
+                <a href="https://ormap.net"><img src="https://ormap.net/img/ormap-logo.png" width=64 alt="ORMap.net"/></a>
+            </span>
+            <span>
+                This page is in a github repo; to report a problem or give feedback, 
+                <a href="https://github.com/ORMAPtools/ormaptools.github.io/issues/new/choose">open an issue</a>.
+                Or you could just send an email to the <a href="mailto:bwilson@co.clatsop.or.us">site maintainer</a>.<br />
+                <span id="Date">date</span>
+            </span>
         </div>
     </body>
 </html>

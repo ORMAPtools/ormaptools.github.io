@@ -6,39 +6,41 @@ Look for it at https://ormaptools.github.io
 
 ## Overview
 
-Uses jekyll to generate static pages.
-I run jekyll in a Docker container because I don't want to install it on my computer.
+### Site generator comment
+
+Using jekyll is the approved way to generate HTML for Github Pages.
+I want to use it because editing HTML by hand is kind of a pain,
+and it will let me directly use some other Github features like
+embedding project metadata in pages so that it will update automatically.
+
+I tried using Jekyll in Docker but could not get the "livereload" feature working.
+Not so far. Maybe tomorrow. In the meantime I installed into a Debian Linux machine.
+
+```bash
+sudo apt install ruby-full build-essential
+echo '# Install Ruby Gems to ~/gems' >> ~/.bashrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+gem install jekyll bundler
+```
 
 ## Test and develop
 
-Create boilerplate (for new projects only)
+Start Visual Studio Code, launch test server
 
 ```bash
-export REPO="$USERPROFILE/source/repos/wildsong.github.io"
-docker run --rm --name=jekyll --volume="$REPO:/srv/jekyll" jekyll/jekyll jekyll new website
+jekyll serve -l
 ```
-
-Run a test server, with hot reload
-
-```bash
-export REPO="$USERPROFILE/source/repos/wildsong.github.io"
-docker run --rm --name=jekyll \
-  --volume="$REPO:/srv/jekyll" \
-  --publish 4000:4000 \
-  jekyll/jekyll \
-  jekyll serve --incremental
-```
-(Do I want --incremental?)
-
-This will start the service running on port 4000, see http://localhost:4000/
-
 
 ## Resources
+
+[Jekyll home page](https://jekyllrb.com/docs/installation/)
 
 ## Futher adventures
 
 * Add actual content to index.html
-* Styles
+* Work on styles
 
 
 
