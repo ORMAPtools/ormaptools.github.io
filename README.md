@@ -9,7 +9,7 @@ Look for it at https://ormaptools.github.io
 ### Site generator comment
 
 Using jekyll is the approved way to generate HTML for Github Pages.
-I want to use it because editing HTML by hand is kind of a pain,
+Moreover I want to use it because editing HTML by hand is kind of a pain,
 and it will let me directly use some other Github features like
 embedding project metadata in pages so that it will update automatically.
 
