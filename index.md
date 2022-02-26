@@ -1,35 +1,39 @@
 ---
-layout: home
 permalink: /
 ---
-# ORMap Tools
-   
 All the ORMapTools repositories are in
-[this Github repository](https://github.com/ORMAPTools")
+[this Github repository](https://github.com/ORMAPTools)
 including both potential future projects and legacy work done 5+ years ago.
 
 This page will introduce you to the current "ORMAP tools" project that will help you 
 transition to managing county parcel data using Parcel Fabric with ArcGIS Pro and ArcGIS Enteprise.
-        
 
-## State wide status of ORMAP Tools project
+## Survey
 
-Please fill out this Google Docs form to let us know the status for your county. This will also give us an updated contact list.
-[Conversion Status survey](https://docs.google.com/forms/d/e/1FAIpQLScLnnL2K0-6XgkTuEsw7QQ-Sx-LXNLE1jY4Y5ATNiESmDRE_A/viewform?vc=0&c=0&w=1&flr=0&pli=1&fbzx=5578410564896297533")
+Please fill out this [Conversion Status survey](https://docs.google.com/forms/d/e/1FAIpQLScLnnL2K0-6XgkTuEsw7QQ-Sx-LXNLE1jY4Y5ATNiESmDRE_A/viewform?vc=0&c=0&w=1&flr=0&pli=1&fbzx=5578410564896297533")
+to let us know the status for your county.  
+This will also give us an updated contact list.
 
 ## Resources
 
-Esri learning guide ["Recommended Esri Training for Oregon Land Records Modernization"](ArcGIS%20Training%20Plan%20For%20ORMAP%20for%20JS_edit.pdf) ***August 2021***
+Esri learning guide ["Recommended Esri Training for Oregon Land Records Modernization"](docs/ArcGIS%20Training%20Plan%20For%20ORMAP%20for%20JS_edit.pdf) ***August 2021***  
 This includes information on instructor-led courses and E-learning tutorials and videos.
 
 ### Publishing parcel fabric
 
-PDF: <a target="new" href="https://pro.arcgis.com/en/pro-app/latest/help/data/parcel-editing/workflow-publishpf.htm">Workflow: Prepare and publish parcel fabric</a>
+Web page: [Workflow: Prepare and publish parcel fabric
+](https://pro.arcgis.com/en/pro-app/latest/help/data/parcel-editing/workflow-publishpf.htm)
 
-Video: <a target="new" href="https://www.esri.com/videos/watch?videoid=zvTSIHKHC54&title=parcel-fabric-migrating-and-administrating-parcels-with-arcgis-pro">Parcel Fabric: Migrating and administrating parcels with ArcGIS Pro</a>
+Video: [Parcel Fabric: Migrating and administrating parcels with ArcGIS Pro](https://www.esri.com/videos/watch?videoid=zvTSIHKHC54&title=parcel-fabric-migrating-and-administrating-parcels-with-arcgis-pro)  
 48 minute mark of this video shows how to publish a parcel fabric  
 
 ## Tools for cartographers
+
+**Software versions:** 
+The tools here are designed to work with **ArcGIS Pro 2.8**
+Some counties are already moving to **ArcGIS Pro 2.9**
+Everything is intended to work with Parcel Fabric, either in a FileGeodatabase or Enterprise.
+If you are using Enterprise make sure it's the version that matches the version of ArcGIS Pro you are using; Pro 2.8 requires Enterprise 10.8 and Pro 2.9 requires Enterprise 10.9.
 
 ### Documentation
 

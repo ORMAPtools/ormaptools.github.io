@@ -1,10 +1,8 @@
 ---
 layout: main
-title: About
+title: About ORMap Tools
 permalink: /about/
 ---
-# About
-
 Not much here yet, eh?
 
 This page lives in Github Pages.
