@@ -70,12 +70,10 @@ Each repository has additional documentation.
 
 The toolbox does not require any special tools (other than ArcGIS Pro!), the code is written in Python and Arcade.
 
-Addins repositories
+### Addins
 
 [Cartographic Arrow Tools repository](https://github.com/ORMAPtools/ArrowTools)  
 [Cancelled Numbers Manager repository](https://github.com/ORMAPtools/CancelledNumbersManager)
 
 The addins are written in the Esri "addin" format, and they are C# .Net projects.
 You need Visual Studio to build new versions. (The free Community version works.)
-
-releases {{ site.github.releases }}
