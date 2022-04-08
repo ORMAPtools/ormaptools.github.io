@@ -46,9 +46,9 @@ If you are using Enterprise make sure it's the version that matches the version 
 
 #### Parcel Fabric
 
-ORMAPParcelFabric.zip This is an ORMAP template with a file geodatabase you can populate. 
+ORMAP Parcel Fabric Template: [ORMAPPF2.0.zip](assets/ORMAPPF2.0.zip) This is a template file geodatabase that you can populate with your own data. 
 
-[T74V2.0.zip](assets/T74V2.0.zip) Pilot data. Parcel fabric containing sample data from Polk County, all tools including conversion tools
+Pilot data: [T74V2.0.zip](assets/T74V2.0.zip) Parcel fabric containing sample data from Polk County, all tools including conversion tools
 This is a test data set, so that you can try out parcel fabric and the ORMap tools.
 
 #### Tools
@@ -77,6 +77,5 @@ Addins repositories
 
 The addins are written in the Esri addin format, and they are C# .Net projects.
 You need Visual Studio to build new versions. (The free Community version works.)
-
 
 releases {{ site.github.releases }}
