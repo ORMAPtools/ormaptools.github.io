@@ -29,8 +29,8 @@ Video: [Parcel Fabric: Migrating and administrating parcels with ArcGIS Pro](htt
 
 ## Tools for cartographers
 
-**Software versions:** 
-The tools here are designed to work with **ArcGIS Pro 2.8**
+**Software version requirements:** 
+The tools here are designed and tested with **ArcGIS Pro 2.8**.
 Some counties are already moving to **ArcGIS Pro 2.9**
 Everything is intended to work with Parcel Fabric, either in a FileGeodatabase or Enterprise.
 If you are using Enterprise make sure it's the version that matches the version of ArcGIS Pro you are using; Pro 2.8 requires Enterprise 10.8 and Pro 2.9 requires Enterprise 10.9.
@@ -44,45 +44,39 @@ If you are using Enterprise make sure it's the version that matches the version 
     
 ### Downloads
 
-23-Feb-22 9:30am these are not real links yet. They will all link to ZIP files when I am done.
-
-### Parcel Fabric
+#### Parcel Fabric
 
 ORMAPParcelFabric.zip This is an ORMAP template with a file geodatabase you can populate. 
 
-T74V2.0.zip Pilot data. Parcel fabric containing sample data from Polk County, all tools including conversion tools
+[T74V2.0.zip](assets/T74V2.0.zip) Pilot data. Parcel fabric containing sample data from Polk County, all tools including conversion tools
 This is a test data set, so that you can try out parcel fabric and the ORMap tools.
 
 #### Tools
 
-[ORMapToolsV2.01.zip](assets/ORMAPToolsV2.01.zip) 4/8/2022
-This is an ArcGIS Pro toolbox.
-
-release information
-https://github.com/ORMAPtools/ORMAP-Tools/releases.atom
+ArcGIS Pro toolbox + python scripts:  [ORMapToolsV2.01.zip](assets/ORMAPToolsV2.01.zip)
 
 Addin tools-- These are set up as ArcGIS Pro "addins".
 
-* <a href="https://github.com/ORMAPtools/ArrowTools">Cartographic Arrow Tools</a>
-* <a href="https://github.com/ORMAPtools/Cancelled Numbers Manager">CancelledNumbersManager</a>
+Cartographic Arrow Tools: 
+
+Cancelled Numbers Manager: 
 
 ## For developers
 
-You can download the code for the addin tools, modify it, build your own.
-Each repository has documentation on how to build it.
+All the code for the ZIP files is available via Github in the [ORMAP-Tools repositories](https://github.com/ORMAPtools).
+Each repository has additional documentation.
 
-### Toolbox
+[ORMap Toolbox repository](https://github.com/ORMAPtools/ORMAP-Tools)
 
-The "ORMAP toolbox" is provided as an Esri toolbox, and the associated code is written in Python.
+The toolbox does not require any special tools (other than ArcGIS Pro!), the code is written in Python and Arcade.
 
-<a href="https://github.com/ORMAPtools/ORMAP-Tools">ORMap Toolbox repository</a>
+Addins repositories
 
-### Addins
+[Cartographic Arrow Tools](https://github.com/ORMAPtools/ArrowTools)  
+[Cancelled Numbers Manager](https://github.com/ORMAPtools/CancelledNumbersManager)
 
-These tools are written in the Esri addin format, they are C# .Net projects.
-You need Visual Studio to build new versions.
+The addins are written in the Esri addin format, and they are C# .Net projects.
+You need Visual Studio to build new versions. (The free Community version works.)
 
-* <a href="https://github.com/ORMAPtools/ArrowTools">Cartographic Arrow Tools</a></li>
-* <a href="https://github.com/ORMAPtools/Cancelled Numbers Manager">CancelledNumbersManager</a>
 
 releases {{ site.github.releases }}
