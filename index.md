@@ -55,7 +55,7 @@ This is a test data set, so that you can try out parcel fabric and the ORMap too
 
 #### Tools
 
-[ORMap Toolbox version 2.01](assets/ORMAPToolsV2.01.zip) 4/8/2022
+[ORMapToolsV2.01.zip](assets/ORMAPToolsV2.01.zip) 4/8/2022
 This is an ArcGIS Pro toolbox.
 
 release information
