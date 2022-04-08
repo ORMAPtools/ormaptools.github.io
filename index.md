@@ -5,7 +5,7 @@ All the ORMapTools repositories are in
 [this Github repository](https://github.com/ORMAPTools)
 including both potential future projects and legacy work done 5+ years ago.
 
-This page will introduce you to the current "ORMAP tools" project that will help you 
+This page will introduce you to the "ORMAP Tools" project that will help you 
 transition to managing county parcel data using Parcel Fabric with ArcGIS Pro and ArcGIS Enteprise.
 
 ## Survey
@@ -46,14 +46,14 @@ If you are using Enterprise make sure it's the version that matches the version 
 
 #### Parcel Fabric
 
-ORMAP Parcel Fabric Template: [ORMAPPF2.0.zip](assets/ORMAPPF2.0.zip) This is a template file geodatabase that you can populate with your own data. 
+ORMAP Parcel Fabric Template: [ORMAPPF2.0.zip](downloads/ORMAPPF2.0.zip) This is a template file geodatabase that you can populate with your own data. 
 
-Pilot data: [T7-4V2.0.zip](assets/T7-4V2.0.zip) Parcel fabric containing sample data from Polk County, all tools including conversion tools
+Pilot data: [T7-4V2.0.zip](downloads/T7-4V2.0.zip) Parcel fabric containing sample data from Polk County, all tools including conversion tools
 This is a test data set, so that you can try out parcel fabric and the ORMap tools.
 
 #### Tools
 
-ArcGIS Pro toolbox + python scripts:  [ORMapToolsV2.01.zip](assets/ORMAPToolsV2.01.zip)
+ArcGIS Pro toolbox + python scripts:  [ORMapToolsV2.01.zip](downloads/ORMAPToolsV2.01.zip)
 
 Addin tools-- These are set up as ArcGIS Pro "addins".
 
@@ -72,10 +72,10 @@ The toolbox does not require any special tools (other than ArcGIS Pro!), the cod
 
 Addins repositories
 
-[Cartographic Arrow Tools](https://github.com/ORMAPtools/ArrowTools)  
-[Cancelled Numbers Manager](https://github.com/ORMAPtools/CancelledNumbersManager)
+[Cartographic Arrow Tools repository](https://github.com/ORMAPtools/ArrowTools)  
+[Cancelled Numbers Manager repository](https://github.com/ORMAPtools/CancelledNumbersManager)
 
-The addins are written in the Esri addin format, and they are C# .Net projects.
+The addins are written in the Esri "addin" format, and they are C# .Net projects.
 You need Visual Studio to build new versions. (The free Community version works.)
 
 releases {{ site.github.releases }}
