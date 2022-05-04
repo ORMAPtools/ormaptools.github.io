@@ -57,10 +57,11 @@ ArcGIS Pro toolbox + python scripts:  [ORMapToolsV2.01.zip](downloads/ORMAPTools
 
 Addin tools-- These are set up as ArcGIS Pro "addins".
 
-Cartographic Arrow Tools: 
+Cartographic Arrow Tools: [ORMAPArrowTools-20220110-0930.esriAddinX](https://github.com/ORMAPtools/ArrowTools/raw/main/ORMAPArrowTools-20220110-0930.esriAddinX)
 
-Cancelled Numbers Manager: 
+Cancelled Numbers Manager: [ORMAPCancelledNumbers.esriAddinX](https://github.com/ORMAPtools/CancelledNumbersManager/raw/main/Install/ORMAPCancelledNumbers.esriAddinX)
 
+https://raw.githubusercontent.com/ORMAPtools/CancelledNumbersManager/master/Install/ORMAPCancelledNumbers.esriAddinX
 ## For developers
 
 All the code for the ZIP files is available via Github in the [ORMAP-Tools repositories](https://github.com/ORMAPtools).
@@ -68,7 +69,7 @@ Each repository has additional documentation.
 
 [ORMap Toolbox repository](https://github.com/ORMAPtools/ORMAP-Tools)
 
-The toolbox does not require any special tools (other than ArcGIS Pro!), the code is written in Python and Arcade.
+The toolbox does not require any special build tools (other than ArcGIS Pro!), the code is written in Python and Arcade.
 
 ### Addins
 
