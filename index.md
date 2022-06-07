@@ -37,22 +37,25 @@ If you are using Enterprise make sure it's the version that matches the version 
     
 ### Downloads
 
-Videos
+#### Videos
 
 [ORMAPBasicToolVideos.zip](downloads/ORMAPBasicToolVideos.zip)  
 [ORMAPToolsOverviewVideos6-4-2022](downloads/ORMAPToolsOverviewVideos6-4-2022.zip)
 #### Parcel Fabric
 
-2022-May-04 ORMAP Parcel Fabric Template: [ORMAPPF2.02.zip](downloads/ORMAPPF2.02.zip) This is a template file geodatabase that you can populate with your own data. 
+ORMAP Parcel Fabric Template: [ORMAPPF2.02.zip](downloads/ORMAPPF2.02.zip) This is a template file geodatabase that you can populate with your own data. (updated 2022-May-04)
 
-2022-Jun-04 Pilot data: [T7-4V2.03.zip](downloads/T7-4V2.03.zip) Parcel fabric containing sample data from Polk County, all tools including conversion tools
+Pilot data: [T7-4V2.03.zip](downloads/T7-4V2.03.zip) Parcel fabric containing sample data from Polk County, all tools including conversion tools
 This is a test data set, so that you can try out parcel fabric and the ORMap tools.
+(updated 2022-Jun-04)
 
 #### Tools
 
 ArcGIS Pro toolbox + python scripts:  [ORMapToolsV2.01.zip](downloads/ORMAPToolsV2.01.zip)
 
 Addin tools-- These are set up as ArcGIS Pro "addins".
+
+Annotation Tasks [ORMAPTasks6-4-2022.zip](downloads/ORMAPTasks6-4-2022.zip) (added 2022-Jun-04)
 
 Cartographic Arrow Tools: [ORMAPArrowTools-20220110-0930.esriAddinX](https://github.com/ORMAPtools/ArrowTools/raw/main/ORMAPArrowTools-20220110-0930.esriAddinX)
 
