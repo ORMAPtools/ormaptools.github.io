@@ -39,8 +39,10 @@ If you are using Enterprise make sure it's the version that matches the version 
 
 #### Videos
 
-[ORMAPBasicToolVideos.zip](downloads/ORMAPBasicToolVideos.zip)  
-[ORMAPToolsOverviewVideos6-4-2022](downloads/ORMAPToolsOverviewVideos6-4-2022.zip)
+Videos are available on Youtube in the "ORMAP Tools" channel.
+
+[![a video](https://www.youtube.com/embed/-og4oB9QDJw/0.jpg)](https://www.youtube.com/embed/-og4oB9QDJw This here video)
+
 #### Parcel Fabric
 
 ORMAP Parcel Fabric Template: [ORMAPPF2.02.zip](downloads/ORMAPPF2.02.zip) This is a template file geodatabase that you can populate with your own data. (updated 2022-May-04)
