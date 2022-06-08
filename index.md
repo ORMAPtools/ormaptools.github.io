@@ -39,9 +39,13 @@ If you are using Enterprise make sure it's the version that matches the version 
 
 #### Videos
 
-Videos are available on Youtube in the "ORMAP Tools" channel.
+These videos are available on Youtube in the "ORMAP Tools" channel.
 
-[![a video](https://www.youtube.com/embed/-og4oB9QDJw/0.jpg)](https://www.youtube.com/embed/-og4oB9QDJw This here video)
+[![Overview playlist](https://i.ytimg.com/vi/rTX02Jr4_qw/default.jpg)](https://youtube.com/playlist?list=PLOvsczC41I8ZbmCx709fCed38b8ZU4DUf)
+Playlist: Tutorial series with narration
+
+[![Basic Introduction playlist](https://i.ytimg.com/vi/-og4oB9QDJw/default.jpg)](https://youtube.com/playlist?list=PLOvsczC41I8Ygz1G47wEqrtdLtMXfiXzm)
+Playlist: A set of short videos to show how to use different ORMAP tools.
 
 #### Parcel Fabric
 
