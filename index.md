@@ -56,18 +56,15 @@ ORMAP Parcel Fabric Template: [ParcelFabricTemplate.zip](downloads/ParcelFabricT
 -- The standard ORMAP Design Template with all related documentation (version 3.0, 09/12/2022)
 
 Pilot data: [T7-4.zip](downloads/T7-4.zip) 
-The Polk T7-4 sample data with operational data, rules, and tools. (version 3.0, 09/12/2022)
+The Polk T7-4 sample data with operational data, rules, and tools. (version 3.0.1, 09/28/2022)
 This is a test data set, so that you can try out parcel fabric and the ORMap tools.
 
-#### Tools
+#### Tools and Rules
 
-ArcGIS Pro toolbox + python scripts:  [ORMAPTools.zip](downloads/ORMAPTools.zip) (version 3.0, 09/12/2022) Contains Default.gdb and ORMAPTools folders from T7-4 sample folder for those that just want the **tools**.
+**ArcGIS Pro toolbox** + python scripts:  [ORMAPToolsV3.0.1.zip](downloads/ORMAPToolsV3.0.1.zip) (version 3.0.1, 09/28/2022) This zip file is for those who just want the **tools**. (Also available using git from https://github.com/ORMAPTools/ORMAP-Tools)
 
-
-
-
-
-
+**Rules Export**: [RulesExport.zip](downloads/RulesExport.zip)
+Exported rules from T7-4 sample folder for those how just want the **rules**.
 
 ##### Addin tools-- These are set up as ArcGIS Pro "addins".
 
@@ -86,7 +83,7 @@ Each repository has additional documentation.
 
 [ORMap Toolbox repository](https://github.com/ORMAPtools/ORMAP-Tools)
 
-The toolbox does not require any special build tools (other than ArcGIS Pro!), the code is written in Python and Arcade.
+The toolbox does not require any special build tools, the code is written in Python and Arcade.
 
 ### Addins
 
@@ -95,3 +92,5 @@ The toolbox does not require any special build tools (other than ArcGIS Pro!), t
 
 The addins are written in the Esri "addin" format, and they are C# .Net projects.
 You need Visual Studio to build new versions. (The free Community version works.)
+
+***9/28/2022 10:20AM***
