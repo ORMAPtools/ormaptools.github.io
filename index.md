@@ -30,10 +30,13 @@ Video: [Parcel Fabric: Migrating and administrating parcels with ArcGIS Pro](htt
 ## Tools for cartographers
 
 **Software version requirements:** 
-The tools here are designed and tested with **ArcGIS Pro 2.8**.
-Some counties are already moving to **ArcGIS Pro 2.9**
+The tools here are designed and tested with **ArcGIS Pro 2.9.4**.
+They might still work with **ArcGIS Pro 2.8.x** but we're not testing there.
 Everything is intended to work with Parcel Fabric, either in a FileGeodatabase or Enterprise.
-If you are using Enterprise make sure it's the version that matches the version of ArcGIS Pro you are using; Pro 2.8 requires Enterprise 10.8 and Pro 2.9 requires Enterprise 10.9.
+If you are using Enterprise make sure it's the version that matches the version of ArcGIS Pro you are using; Pro 2.9 requires Enterprise 10.9 and Pro 2.8 requires Enterprise 10.8.
+
+(ArcGIS 3.0.2 is indeed available and requires Enterprise 11 but we're
+not ready to go there yet.)
     
 ### Downloads
 
@@ -49,17 +52,24 @@ Playlist: A set of short videos to show how to use different ORMAP tools.
 
 #### Parcel Fabric
 
-ORMAP Parcel Fabric Template: [ORMAPPF2.02.zip](downloads/ORMAPPF2.02.zip) This is a template file geodatabase that you can populate with your own data. (updated 2022-May-04)
+ORMAP Parcel Fabric Template: [ParcelFabricTemplate.zip](downloads/ParcelFabricTemplate.zip) 
+-- The standard ORMAP Design Template with all related documentation (version 3.0, 09/12/2022)
 
-Pilot data: [T7-4V2.03.zip](downloads/T7-4V2.03.zip) Parcel fabric containing sample data from Polk County, all tools including conversion tools
+Pilot data: [T7-4.zip](downloads/T7-4.zip) 
+The Polk T7-4 sample data with operational data, rules, and tools. (version 3.0, 09/12/2022)
 This is a test data set, so that you can try out parcel fabric and the ORMap tools.
-(updated 2022-Jun-04)
 
 #### Tools
 
-ArcGIS Pro toolbox + python scripts:  [ORMapToolsV2.01.zip](downloads/ORMAPToolsV2.01.zip)
+ArcGIS Pro toolbox + python scripts:  [ORMAPTools.zip](downloads/ORMAPTools.zip) (version 3.0, 09/12/2022) Contains Default.gdb and ORMAPTools folders from T7-4 sample folder for those that just want the **tools**.
 
-Addin tools-- These are set up as ArcGIS Pro "addins".
+
+
+
+
+
+
+##### Addin tools-- These are set up as ArcGIS Pro "addins".
 
 Annotation Tasks [ORMAPTasks6-4-2022.zip](downloads/ORMAPTasks6-4-2022.zip) (added 2022-Jun-04)
 
