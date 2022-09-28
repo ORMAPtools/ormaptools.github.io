@@ -27,7 +27,7 @@ Web page: [Workflow: Prepare and publish parcel fabric
 Video: [Parcel Fabric: Migrating and administrating parcels with ArcGIS Pro](https://www.esri.com/videos/watch?videoid=zvTSIHKHC54&title=parcel-fabric-migrating-and-administrating-parcels-with-arcgis-pro)  
 48 minute mark of this video shows how to publish a parcel fabric  
 
-## Tools for cartographers
+## ORMAP's Tools for cartographers
 
 **Software version requirements:** 
 The tools here are designed and tested with **ArcGIS Pro 2.9.4**.
@@ -35,53 +35,54 @@ They might still work with **ArcGIS Pro 2.8.x** but we're not testing there.
 Everything is intended to work with Parcel Fabric, either in a FileGeodatabase or Enterprise.
 If you are using Enterprise make sure it's the version that matches the version of ArcGIS Pro you are using; Pro 2.9 requires Enterprise 10.9 and Pro 2.8 requires Enterprise 10.8.
 
-(ArcGIS 3.0.2 is indeed available and requires Enterprise 11 but we're
+(ArcGIS Pro 3.0.2 is indeed available. It requires Enterprise 11. We're
 not ready to go there yet.)
     
-### Downloads
 
-#### Videos
+### Videos
 
-These videos are available on Youtube in the "ORMAP Tools" channel.
+These videos are available on Youtube in the [ORMAP Tools channel](https://www.youtube.com/channel/UCzm6fVzsVVk8LtuvzdPRmnQ). Subscribe! Like! (or don't; we don't care!)
 
 [![Overview playlist](https://i.ytimg.com/vi/rTX02Jr4_qw/default.jpg)](https://youtube.com/playlist?list=PLOvsczC41I8ZbmCx709fCed38b8ZU4DUf)
-Playlist: Tutorial series with narration
+Overview: Tutorial series with narration
 
 [![Basic Introduction playlist](https://i.ytimg.com/vi/-og4oB9QDJw/default.jpg)](https://youtube.com/playlist?list=PLOvsczC41I8Ygz1G47wEqrtdLtMXfiXzm)
-Playlist: A set of short videos to show how to use different ORMAP tools.
+Basic Introduction: A set of short videos to show how to use different ORMAP tools.
 
-#### Parcel Fabric
+### Parcel Fabric
 
-ORMAP Parcel Fabric Template: [ParcelFabricTemplate.zip](downloads/ParcelFabricTemplate.zip) 
+ORMAP **Parcel Fabric Template**: [ParcelFabricTemplate.zip](downloads/ParcelFabricTemplate.zip) 
 -- The standard ORMAP Design Template with all related documentation (version 3.0, 09/12/2022)
 
-Pilot data: [T7-4.zip](downloads/T7-4.zip) 
-The Polk T7-4 sample data with operational data, rules, and tools. (version 3.0.1, 09/28/2022)
+**T7-4 Pilot Data**: [T7-4.zip](downloads/T7-4.zip) 
+The Polk T7-4 sample data complete with operational data, and all rules and tools. (version 3.0.1, 09/28/2022)
 This is a test data set, so that you can try out parcel fabric and the ORMap tools.
 
-#### Tools and Rules
+### Tools and Rules
 
-**ArcGIS Pro toolbox** + python scripts:  [ORMAPToolsV3.0.1.zip](downloads/ORMAPToolsV3.0.1.zip) (version 3.0.1, 09/28/2022) This zip file is for those who just want the **tools**. (Also available using git from https://github.com/ORMAPTools/ORMAP-Tools)
+**ArcGIS Pro toolbox** + python scripts:  [ORMAPToolsV3.0.1.zip](downloads/ORMAPToolsV3.0.1.zip) (version 3.0.1, 09/28/2022) This zip file is for those who just want the **tools**. In github, [ORMAP-Tools](https://github.com/ORMAPTools/ORMAP-Tools)
 
-**Rules Export**: [RulesExport.zip](downloads/RulesExport.zip)
+**Rules Export**: [RulesExport.zip](https://github.com/ORMAPtools/RuleExports/archive/refs/tags/3.0.1.zip)
 Exported rules from T7-4 sample folder for those how just want the **rules**.
+In github, find it at [RuleExports](https://github.com/ORMAPTools/RuleExports)
 
-##### Addin tools-- These are set up as ArcGIS Pro "addins".
+In theory the github versions ***could be*** newer than the zip files, but in practice, we currently upload to github just before doing a new release.
 
-Annotation Tasks [ORMAPTasks6-4-2022.zip](downloads/ORMAPTasks6-4-2022.zip) (added 2022-Jun-04)
+### Addin tools
 
-Cartographic Arrow Tools: [ORMAPArrowTools-20220110-0930.esriAddinX](https://github.com/ORMAPtools/ArrowTools/raw/main/ORMAPArrowTools-20220110-0930.esriAddinX)
+These are set up as ArcGIS Pro "addins".
 
-Cancelled Numbers Manager: [ORMAPCancelledNumbers.esriAddinX](https://github.com/ORMAPtools/CancelledNumbersManager/raw/main/Install/ORMAPCancelledNumbers.esriAddinX)
+* Annotation Tasks [ORMAPTasks6-4-2022.zip](downloads/ORMAPTasks6-4-2022.zip) (added 2022-Jun-04)
+* Cartographic Arrow Tools: [ORMAPArrowTools-20220110-0930.esriAddinX](https://github.com/ORMAPtools/ArrowTools/raw/main/ORMAPArrowTools-20220110-0930.esriAddinX)
+* Cancelled Numbers Manager: [ORMAPCancelledNumbers.esriAddinX](https://github.com/ORMAPtools/CancelledNumbersManager/raw/main/Install/ORMAPCancelledNumbers.esriAddinX)
 
-https://raw.githubusercontent.com/ORMAPtools/CancelledNumbersManager/master/Install/ORMAPCancelledNumbers.esriAddinX
 
 ## For developers
 
 All the code for the ZIP files is available via Github in the [ORMAP-Tools repositories](https://github.com/ORMAPtools).
 Each repository has additional documentation.
 
-[ORMap Toolbox repository](https://github.com/ORMAPtools/ORMAP-Tools)
+[ORMAP-Tools](https://github.com/ORMAPtools/ORMAP-Tools)
 
 The toolbox does not require any special build tools, the code is written in Python and Arcade.
 
@@ -93,4 +94,4 @@ The toolbox does not require any special build tools, the code is written in Pyt
 The addins are written in the Esri "addin" format, and they are C# .Net projects.
 You need Visual Studio to build new versions. (The free Community version works.)
 
-***9/28/2022 10:20AM***
+***9/28/2022 02:41PM***
