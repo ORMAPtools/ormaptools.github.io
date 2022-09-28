@@ -6,9 +6,9 @@ Look in ormaptools.github.io
 
 When Dean shares new files,
 
-# Rename them as needed.
-# Put them in ormaptools.github.io/downloads
-# Move the old files into ARCHIVE/
-# Update the .HTML files (actually they are .MD files!!)
-# Commit, Push, done!
+1 Rename them as needed.
+2 Put them in ormaptools.github.io/downloads
+3 Move the old files into ARCHIVE/
+4 Update the .HTML files (actually they are .MD files!!)
+5 Commit, Push, done!
 
