@@ -16,7 +16,7 @@ including both potential future projects and legacy work done 5+ years ago for A
 
 ### Recent Meeting
 
-**9/28/2022**-- ORMAP tools group notes from [Big Tools Meeting](downloads/ORMAP_Big_Tools_Meeting_20220928.docx)  
+**9/28/2022**-- [notes](downloads/ORMAP_Big_Tools_Meeting_20220928.pdf) from the Big Tools Meeting  
 Recording of the [meeting on YouTube](https://youtu.be/ep14fxZrXxo)
 
 ### Survey
@@ -102,4 +102,4 @@ Addins, written in C#. You need Visual Studio to build new versions. (The free C
 * [ORMAPtools/CancelledNumbersManager](https://github.com/ORMAPtools/CancelledNumbersManager)
 
 
-***9/29/2022 10:15AM***
+***9/29/2022 11:15AM***
