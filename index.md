@@ -16,7 +16,7 @@ including both potential future projects and legacy work done 5+ years ago for A
 
 ### Recent Meeting
 
-**9/28/2022**-- ORMAP tools group [Meeting notes](downloads/)  
+**9/28/2022**-- ORMAP tools group notes from [Big Tools Meeting](downloads/ORMAP_Big_Tools_Meeting_20220928.docx)  
 Recording of the [meeting on YouTube](https://youtu.be/ep14fxZrXxo)
 
 ### Survey

@@ -1,5 +1,9 @@
 # Notes on downloads folder
 
+If you see this page you should probably immediately
+[tell Brian](mailto:bwilson@co.clatsop.or.us) because he messed up a link.
+
+
 Some of the downloads live here in the form of ZIP files.
 Some of them are directly pulled from their github repositories.
 
